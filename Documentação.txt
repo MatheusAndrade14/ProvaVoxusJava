@@ -1,0 +1,19 @@
+Nome : Matheus Sousa de Andrade
+
+Como fiz o projeto ? em primeiro lugar, pensei como iria executar tudo oque estavam
+ pedindo na prova, qual linguagem usaria, e quais frameworks, quando decidi isso, comecei a programar
+botando todo meu conehcimento em pratica, pensei em fazer com spring data, pensei também em fazer com restful
+porém logo vi um caminho e achei mais facil fazer com hibernate e com jsp e servlets para fazer o cadastro no banco de dados.
+obs: usei o SQL SERVER.
+para desenvolver o metodo que faz a leitura e o cadastro das cedulas do arquivo xlsx no banco de dados, usei o apache-poi.
+
+o momento em que mais senti dificuldade foi justamente o de percorrer e cadastrar varios elementos da lista no banco de dados,
+porém só havia conseguido quando havia apenas uma linha neste excel pois sempre que havia mais que uma linha, ele quebrava 
+sempre com a mensagem de erro seguinte "cannot get a numeric value from a string cell date", tentei formatar no java, mudar o 
+tipo da celula no excel para date, porém nada funcionou.
+
+um momento em que perdi um pouco de tempo foi quando desenvolvi meu servlet para o upload do arquivo, pois o eclipse estava 
+dando erro, e depois de alguns minutos procurando este erro, vi que o erro estava no proprio navegador do eclipse. pois quando joguei 
+no google chrome, ele funcionou corretamente, fazendo o upload e cadastrando no banco de dados ! 
+
+de resto senti muita facilidade para desenvolver. foi uma grande experiencia realizar está prova. muito obrigado !
